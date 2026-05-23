@@ -64,3 +64,4 @@ class ProductDAO:
     def close(self):
         self.cursor.close()
         self.conn.close()
+
